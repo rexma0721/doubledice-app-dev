@@ -1,0 +1,53 @@
+
+/* CSS class name added to navigation button when it becomes disabled */
+#bet-page-header-opponents-image .swiper-button-disabled{
+  display: none !important;
+}
+
+/* Swiper Buttons */
+#bet-page-header-opponents-image .swiper-button-prev {
+  background-image: url(/icons/chevronLeft.svg);
+  margin-left: -2rem !important;
+  left: 0;
+}
+
+#bet-page-header-opponents-image .swiper-button-prev {
+  background-repeat: no-repeat;
+  background-size: 50% auto;
+  background-position: center;
+  box-sizing: border-box;
+  height: 5rem !important;
+  width: 6rem !important;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.12);
+}
+#bet-page-header-opponents-image .swiper-button-next {
+  background-repeat: no-repeat;
+  background-size: 50% auto;
+  background-position: center;
+  box-sizing: border-box;
+  height: 5rem !important;
+  width: 6rem !important;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.12);
+}
+
+#bet-page-header-opponents-image .swiper-button-prev::after{
+  display: none;
+}
+
+#bet-page-header-opponents-image .swiper-button-prev::after {
+  display: none;
+}
+
+#bet-page-header-opponents-image .swiper-button-next {
+  background-image: url(/icons/chevronRight.svg);
+  margin-right: -2rem !important;
+  right: 0;
+
+}
+
+#bet-page-header-opponents-image .swiper-button-next::after {
+  display: none;
+}
+#bet-page-header-opponents-image .swiper-button-next::after {
+  display: none;
+}
